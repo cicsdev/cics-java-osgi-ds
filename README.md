@@ -2,7 +2,7 @@
 Demonstration of Declarative Services (DS) in OSGi JVM servers
 
 ## Supporting Files
-* com.ibm.cicsdev.osgi.ds_1.0.0 - OSGi interfaces
+* [com.ibm.cicsdev.osgi.ds_1.0.0](projects/com.ibm.cicsdev.osgi.ds_1.0.0) - OSGi interfaces
 * com.ibm.cicsdev.osgi.ds.bundle_1.0.0 - CICS Bundle for the OSGi interfaces
 * com.ibm.cicsdev.osgi.ds.app_1.0.0 - CICS application entry point
 * com.ibm.cicsdev.osgi.ds.app.bundle_1.0.0 - CICS Bundle containing the application, program and transaction.
@@ -14,7 +14,7 @@ Demonstration of Declarative Services (DS) in OSGi JVM servers
 ## Usage
 1. Deploy all found bundle projects to z/FS
 2. Create an OSGi JVM server with the name `DFHOSGI`.
-3. Define CICS bundles for these bundle projects. [Table 1](#Table_1) shows the mapping of bundle to bundle name used.
+3. Define CICS bundles for these bundle projects. [Table 1](#table-1) shows the mapping of bundle to bundle name used.
 4. Install `DS      `, `DS.APP  ` and `DS.TSQ10`.
 5. Run the transaction `DSTS PUT TEST`, this should display the message `Created entry 1`
 6. Run the transaction `DSTS GET 1`, this should display the message `TEST`, which confirms the data was stored correctly.
