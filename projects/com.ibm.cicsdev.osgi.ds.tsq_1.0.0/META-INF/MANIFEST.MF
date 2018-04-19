@@ -7,6 +7,6 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ClassPath: bin
 Import-Package: com.ibm.cics.server;version="[1.700.0,2.0.0)",
  com.ibm.cicsdev.osgi.ds;version="1.0.0"
-Service-Component: OSGI-INF/com.ibm.cicsdev.osgi.ds.tsq.TemporaryStorageQueueService.xml
+Service-Component: OSGI-INF/com.ibm.cicsdev.osgi.ds.tsq.InMemoryStorageService.xml
 Bundle-ActivationPolicy: lazy
 
