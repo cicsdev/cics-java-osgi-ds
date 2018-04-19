@@ -3,13 +3,13 @@ Demonstration of Declarative Services (DS) in OSGi JVM servers
 
 ## Supporting Files
 * [com.ibm.cicsdev.osgi.ds_1.0.0](projects/com.ibm.cicsdev.osgi.ds_1.0.0) - OSGi interfaces
-* com.ibm.cicsdev.osgi.ds.bundle_1.0.0 - CICS Bundle for the OSGi interfaces
-* com.ibm.cicsdev.osgi.ds.app_1.0.0 - CICS application entry point
-* com.ibm.cicsdev.osgi.ds.app.bundle_1.0.0 - CICS Bundle containing the application, program and transaction.
-* com.ibm.cicsdev.osgi.ds.tsq_1.0.0 - Base TSQ implementation
-* com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.0 - CICS Bundle for the base TSQ implementation
-* com.ibm.cicsdev.osgi.ds.tsq_1.0.1 - Improved TSQ implementation
-* com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.1 - CICS Bundle for the improved TSQ implementation
+* [com.ibm.cicsdev.osgi.ds.bundle_1.0.0](projects/com.ibm.cicsdev.osgi.ds.bundle_1.0.0) - CICS Bundle for the OSGi interfaces
+* [com.ibm.cicsdev.osgi.ds.app_1.0.0](projects/com.ibm.cicsdev.osgi.ds.app_1.0.0) - CICS application entry point
+* [com.ibm.cicsdev.osgi.ds.app.bundle_1.0.0](projects/com.ibm.cicsdev.osgi.ds.app.bundle_1.0.0) - CICS Bundle containing the application, program and transaction.
+* [com.ibm.cicsdev.osgi.ds.tsq_1.0.0](projects/com.ibm.cicsdev.osgi.ds.tsq_1.0.0) - In-memory implementation
+* [com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.0](projects/com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.0) - CICS Bundle for the base in-memory implementation
+* [com.ibm.cicsdev.osgi.ds.tsq_1.0.1](projects/com.ibm.cicsdev.osgi.ds.tsq_1.0.1) - TSQ implementation
+* [com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.1](projects/com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.1) - CICS Bundle for the TSQ implementation
 
 ## Usage
 1. Deploy all found bundle projects to z/FS
