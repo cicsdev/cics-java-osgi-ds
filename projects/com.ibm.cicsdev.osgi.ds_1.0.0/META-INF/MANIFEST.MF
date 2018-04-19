@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.ibm.cicsdev.osgi.ds
+Bundle-SymbolicName: com.ibm.cicsdev.osgi.ds
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: bin
+Export-Package: com.ibm.cicsdev.osgi.ds;version="1.0.0"
+
