@@ -1,14 +1,14 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: com.ibm.cicsdev.osgi.ds.app_1.0.0
-Bundle-SymbolicName: com.ibm.cicsdev.osgi.ds.app
+Bundle-Name: com.ibm.cicsdev.osgi.ds.cicsapp_1.0.0
+Bundle-SymbolicName: com.ibm.cicsdev.osgi.ds.cicsapp
 Bundle-Version: 1.0.0
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ClassPath: bin
-Import-Package: com.ibm.cics.server;version="1.700.0",
- com.ibm.cicsdev.osgi.ds,
+Import-Package: com.ibm.cics.server;version="[1.700.0,2.0.0)",
+ com.ibm.cicsdev.osgi.ds.storage,
  org.osgi.service.component
-Service-Component: OSGI-INF/com.ibm.cicsdev.osgi.ds.app.App.xml
+Service-Component: OSGI-INF/com.ibm.cicsdev.osgi.ds.cicsapp.CICSApp.xml
 Bundle-ActivationPolicy: lazy
-CICS-MainClass: com.ibm.cicsdev.osgi.ds.app.App
-Export-Package: com.ibm.cicsdev.osgi.ds.app;version="1.0.0"
+CICS-MainClass: com.ibm.cicsdev.osgi.ds.cicsapp.CICSApp
+Export-Package: com.ibm.cicsdev.osgi.ds.cicsapp;version="1.0.0"

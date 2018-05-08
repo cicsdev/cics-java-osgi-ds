@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>com.ibm.cicsdev.osgi.ds.bundle_1.0.0</name>
+	<name>com.ibm.cicsdev.osgi.ds.storage.bundle_1.0.0</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,7 +10,7 @@
 			<arguments>
 				<dictionary>
 					<key>bundleID</key>
-					<value>com.ibm.cicsdev.osgi.ds.bundle</value>
+					<value>com.ibm.cicsdev.osgi.ds.storage</value>
 				</dictionary>
 				<dictionary>
 					<key>majorVersion</key>

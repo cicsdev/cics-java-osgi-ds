@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.1</name>
+	<name>com.ibm.cicsdev.osgi.ds.storage.impl.bundle_1.1.0</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,7 +10,7 @@
 			<arguments>
 				<dictionary>
 					<key>bundleID</key>
-					<value>com.ibm.cicsdev.osgi.ds.tsq.bundle</value>
+					<value>com.ibm.cicsdev.osgi.ds.storage.impl</value>
 				</dictionary>
 				<dictionary>
 					<key>majorVersion</key>
@@ -18,11 +18,11 @@
 				</dictionary>
 				<dictionary>
 					<key>microVersion</key>
-					<value>1</value>
+					<value>0</value>
 				</dictionary>
 				<dictionary>
 					<key>minorVersion</key>
-					<value>0</value>
+					<value>1</value>
 				</dictionary>
 			</arguments>
 		</buildCommand>

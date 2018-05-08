@@ -1,12 +1,11 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: com.ibm.cicsdev.osgi.ds.tsq
-Bundle-SymbolicName: com.ibm.cicsdev.osgi.ds.tsq
+Bundle-Name: com.ibm.cicsdev.osgi.ds.storage.impl
+Bundle-SymbolicName: com.ibm.cicsdev.osgi.ds.storage.impl
 Bundle-Version: 1.0.0
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ClassPath: bin
-Import-Package: com.ibm.cics.server;version="[1.700.0,2.0.0)",
- com.ibm.cicsdev.osgi.ds;version="1.0.0"
-Service-Component: OSGI-INF/com.ibm.cicsdev.osgi.ds.tsq.InMemoryStorageService.xml
+Import-Package: com.ibm.cicsdev.osgi.ds.storage;version="[1.0.0,2.0.0)"
+Service-Component: OSGI-INF/com.ibm.cicsdev.osgi.ds.storage.InMemoryStorage.xml
 Bundle-ActivationPolicy: lazy
 
