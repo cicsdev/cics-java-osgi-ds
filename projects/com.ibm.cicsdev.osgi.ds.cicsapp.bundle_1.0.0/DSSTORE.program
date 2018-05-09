@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><cicsdefinitionprogram concurrency="REQUIRED" execkey="CICS" jvm="YES" jvmclass="com.ibm.cicsdev.osgi.ds.app.App" jvmserver="DFHOSGI" name="DSSTORE" xmlns="http://www.ibm.com/xmlns/prod/CICS/smw2int"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cicsdefinitionprogram concurrency="REQUIRED" execkey="CICS" jvm="YES" jvmclass="com.ibm.cicsdev.osgi.ds.cicsapp.CICSApp" jvmserver="DFHOSGI" name="DSSTORE" xmlns="http://www.ibm.com/xmlns/prod/CICS/smw2int"/>

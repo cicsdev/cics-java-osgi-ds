@@ -45,7 +45,7 @@ public class CICSApp
 			return;
 		}
 
-		String[] params = action.split(" ", 2);
+		String[] params = action.split(" ", 3);
 
 		// Perform the action based on the first word of the input
 		switch (params[1])
