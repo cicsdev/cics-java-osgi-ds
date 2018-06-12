@@ -1,5 +1,15 @@
 package com.ibm.cicsdev.osgi.ds.storage.impl;
 
+/* Licensed Materials - Property of IBM                               */
+/*                                                                    */
+/* SAMPLE                                                             */
+/*                                                                    */
+/* (c) Copyright IBM Corp. 2018 All Rights Reserved                   */
+/*                                                                    */
+/* US Government Users Restricted Rights - Use, duplication or        */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp   */
+/*                                                                    */
+
 import com.ibm.cics.server.CicsConditionException;
 import com.ibm.cics.server.ItemHolder;
 import com.ibm.cics.server.TSQ;
