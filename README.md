@@ -66,3 +66,5 @@ We have chosen to separate each component of the application into distinct CICS 
 | `DS-IMP10`       | com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.0 |
 | `DS-IMP11`       | com.ibm.cicsdev.osgi.ds.tsq.bundle_1.0.1 |
  
+## License
+This project is licensed under [Apache License Version 2.0](LICENSE).
