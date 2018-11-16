@@ -34,7 +34,7 @@ We have chosen to separate each component of the application into distinct CICS 
 
 ## Prerequisites
 * CICS TS for z/OS 5.1 or above
-* Java SE 7.1 or above
+* IBM SDK for Java SE 7.1 or above
 
 ## Supporting Files
 * [com.ibm.cicsdev.osgi.ds.cicsapp_1.0.0](projects/com.ibm.cicsdev.osgi.ds.cicsapp_1.0.0) - OSGi bundle project containing the CICS application entry point
@@ -47,21 +47,20 @@ We have chosen to separate each component of the application into distinct CICS 
 * [com.ibm.cicsdev.osgi.ds.storage.impl.bundle_1.1.0](projects/com.ibm.cicsdev.osgi.ds.storage.impl.bundle_1.1.0) - CICS bundle for the TSQ implementation
 
 ## Usage
-1. Clone or download this repository onto a local workstation
-2. Import the projects into CICS Explorer
-3. Deploy all the CICS bundle projects to zFS
+1. Clone or download this repository onto a local workstation.
+2. Import the projects into CICS Explorer.
+3. Deploy all the CICS bundle projects to zFS.
 4. Create an OSGi JVM server with the name `DFHOSGI`.
 5. Create CICS bundle definitions for these OSGi bundle projects. [Table 1](#table-1) shows the mapping of bundle to bundle name used.
 6. Install the CICS bundle definitions: `DS      `, `DS-APP  ` and `DS-IMP10`.
-7. Run the transaction `DSTS PUT INMEM`, this should display the message `Created entry 1`
-8. Run the transaction `DSTS GET 1`, this should display the message `INMEM`, which confirms the data was stored correctly in-memory
+7. Run the transaction `DSTS PUT INMEM`, this should display the message `Created entry 1`.
+8. Run the transaction `DSTS GET 1`, this should display the message `INMEM`, which confirms the data was stored correctly in-memory.
 9. Install the CICS bundle `DS-IMP11`.
 10. Disable the CICS bundle `DS-IMP10`.
 11. Run the transaction `DSTS GET 1`, this should abend because the entry was not found in the TSQ.
-12. Run the transaction `DSTS PUT TSQ`, this should display the message `Created entry 1`
+12. Run the transaction `DSTS PUT TSQ`, this should display the message `Created entry 1`.
 13. Run the transaction `DSTS GET 1`, this should display the message `TSQ`, which confirms the data was stored correctly  in the TSQ (confirm by browsing on the TSQ `TSQS`, using the `CEBR` transaction for example).
 14. The standard out (STDOUT) file for the JVM server should display messages that indicate the in-memory service (version 1.0.0) was first bound. Then later the service will be unbound when the OSGi bundle is disabled. You should also see that the TSQ service (1.1.0) is bound in it's place.
-
 
 ### Table 1
 
