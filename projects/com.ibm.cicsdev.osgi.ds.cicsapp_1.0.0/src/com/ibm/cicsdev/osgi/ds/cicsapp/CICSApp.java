@@ -128,7 +128,7 @@ public class CICSApp
 		if (service.equals(CICSApp.storage))
 		{
 			// Don't actually unbound the service as we may want to continue using it.
-			// Instead set a flag to suggest that there's no service bound/
+			// Instead set a flag to suggest that there's no service bound.
 			CICSApp.bound = false;
 		} else
 		{
