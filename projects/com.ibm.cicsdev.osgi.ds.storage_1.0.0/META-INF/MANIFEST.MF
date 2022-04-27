@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: com.ibm.cicsdev.osgi.ds.storage
 Bundle-SymbolicName: com.ibm.cicsdev.osgi.ds.storage
 Bundle-Version: 1.0.0
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ClassPath: bin
 Export-Package: com.ibm.cicsdev.osgi.ds.storage;version="1.0.0"
 
