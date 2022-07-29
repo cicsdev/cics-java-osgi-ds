@@ -34,7 +34,7 @@ We have chosen to separate each component of the application into distinct CICS 
 
 ## Prerequisites
 * CICS TS for z/OS 5.1 or above
-* IBM SDK for Java SE 7.1 or above
+* Java SE 1.8 or later on the workstation
 
 ## Supporting Files
 * [com.ibm.cicsdev.osgi.ds.cicsapp_1.0.0](projects/com.ibm.cicsdev.osgi.ds.cicsapp_1.0.0) - OSGi bundle project containing the CICS application entry point
